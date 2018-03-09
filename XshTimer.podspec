@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name         = 'XshTimer'
-s.version      = '1.0.1'
+s.version      = '1.0.4'
 s.summary      = 'An ActionSheet like WeChat'
 s.homepage     = 'https://github.com/xushuanghui/XshTimer'
 s.license      = 'MIT'

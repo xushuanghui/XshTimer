@@ -22,7 +22,7 @@ pod 'XshTimer'
 
 ## Author
 
-841272293@qq.com, 841272293@qq.com
+xushuanghui, 841272293@qq.com
 
 ## License
 

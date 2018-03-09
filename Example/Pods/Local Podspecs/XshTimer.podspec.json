@@ -1,22 +1,19 @@
 {
   "name": "XshTimer",
-  "version": "0.1.0",
-  "summary": "A short description of XshTimer.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/841272293@qq.com/XshTimer",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "1.0.2",
+  "summary": "An ActionSheet like WeChat",
+  "homepage": "https://github.com/xushuanghui/XshTimer",
+  "license": "MIT",
   "authors": {
-    "841272293@qq.com": "841272293@qq.com"
-  },
-  "source": {
-    "git": "https://github.com/841272293@qq.com/XshTimer.git",
-    "tag": "0.1.0"
+    "xushuanghui": "841272293@qq.com"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "6.0"
   },
-  "source_files": "XshTimer/Classes/**/*"
+  "source": {
+    "git": "https://github.com/xushuanghui/XshTimer.git",
+    "tag": "1.0.2"
+  },
+  "source_files": "XshTimer/Classes/**/*",
+  "requires_arc": true
 }

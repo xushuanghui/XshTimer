@@ -15,11 +15,13 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
+    [NSTimer xsh_scheduledTimerWithTimeInterval:3 block:^{
+        NSLog(@"1");
+    } repeats:YES];
     
-    
-//    [[MD_GCDTimerManager sharedInstance] scheduledDispatchTimerWithName:@"xshTimer" timeInterval:3 queue:nil repeats:YES actionOption:(AbandonPreviousAction) action:^{
-//        NSLog(@"1234567");
-//    }];
+    [[MD_GCDTimerManager sharedInstance] scheduledDispatchTimerWithName:@"xshTimer" timeInterval:3 queue:nil repeats:YES actionOption:(AbandonPreviousAction) action:^{
+        NSLog(@"2");
+    }];
 }
 
 

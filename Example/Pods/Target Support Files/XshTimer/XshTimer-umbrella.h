@@ -11,6 +11,7 @@
 #endif
 
 #import "MD_GCDTimerManager.h"
+#import "NSTimer+XshBlocksSupport.h"
 
 FOUNDATION_EXPORT double XshTimerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XshTimerVersionString[];
