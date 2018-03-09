@@ -14,6 +14,8 @@
 		623F8EB1A77E65CD8381A13858DBD006 /* Pods-XshTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D0B2D5C52A1E8A1368F6318077F65D /* Pods-XshTimer_Example-dummy.m */; };
 		882AB1A73E67C816CA72A1FDE8104BDF /* MD_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E4D824F0A4BCCF95A325E0F9E18B15 /* MD_GCDTimerManager.m */; };
 		928E73FA5D726F0488FFB5870E996D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A58A68692052910100E6BE16 /* NSTimer+XshBlocksSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = A58A68672052910100E6BE16 /* NSTimer+XshBlocksSupport.h */; };
+		A58A686A2052910100E6BE16 /* NSTimer+XshBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A58A68682052910100E6BE16 /* NSTimer+XshBlocksSupport.m */; };
 		B2DE1872430E54C8674FB335EB5EA356 /* XshTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E382C2C6C742C9EFE4C541CCC8DA6CE7 /* XshTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBEE151C9F73950E3AE3DCEE2C67F10A /* MD_GCDTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B178A92F42577C15CE3539CD26AD95DB /* MD_GCDTimerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4F343D87C3E8E60D468B2E6EE09EC04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -51,6 +53,8 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2C60CC29B24FDED52C840524505AC26 /* XshTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XshTimer-prefix.pch"; sourceTree = "<group>"; };
 		A4BE6F2EB53974C1DF2ADE85CF4D33E3 /* Pods_XshTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XshTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58A68672052910100E6BE16 /* NSTimer+XshBlocksSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSTimer+XshBlocksSupport.h"; path = "XshTimer/Classes/NSTimer+XshBlocksSupport.h"; sourceTree = "<group>"; };
+		A58A68682052910100E6BE16 /* NSTimer+XshBlocksSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+XshBlocksSupport.m"; path = "XshTimer/Classes/NSTimer+XshBlocksSupport.m"; sourceTree = "<group>"; };
 		B178A92F42577C15CE3539CD26AD95DB /* MD_GCDTimerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MD_GCDTimerManager.h; path = XshTimer/Classes/MD_GCDTimerManager.h; sourceTree = "<group>"; };
 		B783E15C41EE0FCF40D308C6AB13BD9C /* XshTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XshTimer.xcconfig; sourceTree = "<group>"; };
 		BDC495DB134776F5E6F6255548D26710 /* Pods-XshTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XshTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -169,6 +173,8 @@
 			children = (
 				B178A92F42577C15CE3539CD26AD95DB /* MD_GCDTimerManager.h */,
 				91E4D824F0A4BCCF95A325E0F9E18B15 /* MD_GCDTimerManager.m */,
+				A58A68672052910100E6BE16 /* NSTimer+XshBlocksSupport.h */,
+				A58A68682052910100E6BE16 /* NSTimer+XshBlocksSupport.m */,
 				07153AD4D71FC789F9C5396BDB84996A /* Support Files */,
 			);
 			name = XshTimer;
@@ -217,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF089EEC9A6E5670C6BCC247138ECEF /* Pods-XshTimer_Example-umbrella.h in Headers */,
+				A58A68692052910100E6BE16 /* NSTimer+XshBlocksSupport.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58A686A2052910100E6BE16 /* NSTimer+XshBlocksSupport.m in Sources */,
 				623F8EB1A77E65CD8381A13858DBD006 /* Pods-XshTimer_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
