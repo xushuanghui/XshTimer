@@ -1,0 +1,22 @@
+{
+  "name": "XshTimer",
+  "version": "0.1.0",
+  "summary": "A short description of XshTimer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/841272293@qq.com/XshTimer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "841272293@qq.com": "841272293@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/841272293@qq.com/XshTimer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XshTimer/Classes/**/*"
+}

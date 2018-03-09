@@ -1,0 +1,16 @@
+PODS:
+  - XshTimer (0.1.0)
+
+DEPENDENCIES:
+  - XshTimer (from `../`)
+
+EXTERNAL SOURCES:
+  XshTimer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XshTimer: 1e40344c2e467bf648ae6e05f22f584fc5c1de1c
+
+PODFILE CHECKSUM: 24b9d890ac6aecdd1c8a5b67e5c8e4c8d375b0d8
+
+COCOAPODS: 1.3.1
