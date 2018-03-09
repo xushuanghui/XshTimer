@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XshTimer_Example' do
+  pod 'XshTimer', :path => '../'
+
+  target 'XshTimer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
